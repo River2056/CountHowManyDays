@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Orbitron;
+    src: url("./Orbitron/Orbitron-Regular.ttf");
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url("./Orbitron/Orbitron-Bold.ttf");
+    font-weight: bold;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Orbitron;
+    font-size: 36px;
+}
+
+
+body {
+    background: #292c34;
+}
+
+header {
+    background: #fff;
+    color: #292c34;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.main {
+    width: 100%;
+    padding: 40px;
+    background: none;
+    color: #fff;
+}
+
+.main > div {
+    padding: 70px 0px;
+}
+
+.main > div > p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.start {
+    border-top: none;
+}
+
+.now {
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.text {
+    display: block;
+    margin: 0px 130px;
+}
+
+#time {
+    display: inline-block;
+    margin: 0px 50px;
+}
